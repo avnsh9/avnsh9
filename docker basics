@@ -9,6 +9,7 @@ docker run <image name>
   -v /tmp/.X11-unix:/tmp/.X11-unix:ro
   bash {if no cmd command}
 
+#in the terminal(not docker) 
 
-    
+    xhost +
     
