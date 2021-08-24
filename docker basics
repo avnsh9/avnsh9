@@ -1,0 +1,14 @@
+#build images
+docker build -t <name of image> -f <name of makefile> .
+
+#build new container from a image
+docker run <image name>
+  --name <name of container>
+  -it {for interactive session}
+  -e DISPLAY=$DISPLAY
+  -v /tmp/.X11-unix:/tmp/.X11-unix:ro
+  bash {if no cmd command}
+
+
+    
+    
